@@ -63,7 +63,7 @@ if __name__ == '__main__':
 5.  Enter the webhook URI, webhook label and any optional headers (if required) and click Finish
     ![webhook](https://pbs.twimg.com/media/GAPpuvOa4AAPCta?format=png&name=900x900)
 
-    **NOTE**: Make sure your webhook URI private to your. Anyone with access to your webhook URI can send you webhook messages.
+    **NOTE**: Make sure your webhook URI private to you. Anyone with access to your webhook URI can send you webhook messages.
 
 6.  After saving it, you will start receive webhook messages of all USDT transactions above $1M. The response message is a json object containing all the details of the transaction.
 

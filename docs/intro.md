@@ -61,10 +61,10 @@ Bstream provides a wide range of Stream types:
 
    ![image](https://pbs.twimg.com/media/GAPpuIFacAE9l4p?format=png&name=small)
 
-Supported Integrations:
-- **Telegram**: You will have to create a telegram bot yourself by following these steps:
-    ![image](https://cdn.discordapp.com/attachments/1168052694901075978/1181898047345655889/image.png?ex=6582bb55&is=65704655&hm=88abc60887770a397bf8b418e8aff3dd92d1c73ccfd4cde9320bf4263c6e6acd)
-- **Webhook**: To receive alerts within your webhook servers, simply add your webhook URI:
-    ![image](https://pbs.twimg.com/media/GAPpuvOa4AAPCta?format=png&name=900x900)
-- **Discord** (coming soon)
-- **Email** (coming soon)
+    Supported Integrations:
+    - **Telegram**: You will have to create a telegram bot yourself by following these steps:
+        ![image](https://cdn.discordapp.com/attachments/1168052694901075978/1181898047345655889/image.png?ex=6582bb55&is=65704655&hm=88abc60887770a397bf8b418e8aff3dd92d1c73ccfd4cde9320bf4263c6e6acd)
+    - **Webhook**: To receive alerts within your webhook servers, simply add your webhook URI:
+        ![image](https://pbs.twimg.com/media/GAPpuvOa4AAPCta?format=png&name=900x900)
+    - **Discord** (coming soon)
+    - **Email** (coming soon)

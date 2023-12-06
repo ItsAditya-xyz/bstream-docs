@@ -17,7 +17,7 @@ The transfers stream has below filters:
 | Chain              | Chain on which the token is deployed. eg. Ethereum, Arbitrum etc. |
 | Wallet Address     | List of wallets you want to track (optional).                     |
 | Transfer direction | In, out or both.                                                  |
-| Token Addresses    | Token address you want to track.                                  |
+| Token address    | Token address you want to track.                                  |
 | Operators          | Less then, more than or equal to a specific amount                  |
 
 :::note Note

@@ -2,21 +2,27 @@
 
 Using **Transfers** stream on can receive notifcations about transfer of tokens on chains like Ethereum, Arbitrum etc.
 
-Supported Networks:
+## Supported Networks:
 
-Ethereum mainnet
-Arbitrum
+- **Ethereum mainnet**
+- **Arbitrum**
 
+The transfers stream has below filters:
 ![stream filters](https://cdn.discordapp.com/attachments/841605440038240276/1181900554759307294/image.png?ex=6582bdaa&is=657048aa&hm=6686a4d09f53219d93cd500b974d6a45b39d10e34c9e62c403bf7fcaa6e5406f&)
 
 ## Filter Parameters
 
-| Chain            | Chain to monitor on                             |
-| ---------------- | ----------------------------------------------- |
-| Operator         | Filter on transfer amounts                      |
-| Amount           | Filter on amounts                               |
-| Currency         | Automatically chosen upon selecting the network |
-| Wallet Addresses | Monitor up to 5 wallets                         |
+| Filter Type        | Description                                                       |
+| ------------------ | ----------------------------------------------------------------- |
+| Chain              | Chain on which the token is deployed. eg. Ethereum, Arbitrum etc. |
+| Wallet Address     | List of wallets you want to track (optional).                     |
+| Transfer direction | In, out or both.                                                  |
+| Token Addresses    | Token address you want to track.                                  |
+| Operators          | Less then, more than or equal to a specific amount                  |
+
+:::note Note
+If no wallet is provided, all transfers of the token will be streamed
+:::
 
 ## Message Params
 
@@ -24,7 +30,7 @@ Arbitrum
 
 | Stream Name           | Returns the name of the stream               |
 | --------------------- | -------------------------------------------- |
-| Token                 | Returns the token trasnacted                 |
+| Token                 | Returns the token transacted                 |
 | From                  | Returns the sender's wallet                  |
 | To                    | Returns the receiver's wallet                |
 | Chain                 | Returns the chain                            |

@@ -1,22 +1,21 @@
 # Native Transaction
 
-## Filter on native transactions like ETH, AVAX, BNB…
+Using **Native Transactions** one receive notifications about transfers of native currencies like Ethereum, Avax etc.
 
-Supported Networks:
+## Supported Networks:
 
-Ethereum mainnet
-Arbitrum
+1. **Ethereum mainnet**
+2. **Arbitrum**
 
-![stream filters](https://docs.bstream.io/assets/images/native-transactions-filter-dc39a6499640264064c4e03e88dbdd5b.png)
+![stream filters](https://cdn.discordapp.com/attachments/841605440038240276/1181907422604951652/image.png?ex=6582c410&is=65704f10&hm=5de87bebb2b7250aa0e0f3fd095969f2639b54fd73efc884fe13534c790234fd&)
 
 ## Filter Parameters
 
-| Chain            | Chain to monitor on                             |
-| ---------------- | ----------------------------------------------- |
-| Operator         | Filter on transfer amounts                      |
-| Amount           | Filter on amounts                               |
-| Currency         | Automatically chosen upon selecting the network |
-| Wallet Addresses | Monitor up to 5 wallets                         |
+| Filter Type        | Description                                                       |
+| ------------------ | ----------------------------------------------------------------- |
+| Chain              | Chain to track, eg. Ethreum, avax, arbitrum etc. |
+| Wallet Address     | List of wallets you want to track (optional).                     |
+| Operators          | Less then, more than or equal to a specific amount                  |
 
 ## Message Params
 
@@ -29,4 +28,4 @@ Arbitrum
 | To                    | Returns the receiver's wallet                |
 | Chain                 | Returns the chain                            |
 | Date & Time Addresses | Returns the date and time of the transaction |
-| Txn link              | Returns the scan link of the transfer        |
+| Txn link              | Returns the link of the transfer        |

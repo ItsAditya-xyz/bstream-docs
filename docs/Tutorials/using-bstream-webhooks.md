@@ -63,52 +63,53 @@ if __name__ == '__main__':
 5.  Enter the webhook URI, webhook label and any optional headers (if required) and click Finish
     ![webhook](https://pbs.twimg.com/media/GAPpuvOa4AAPCta?format=png&name=900x900)
 
-    **NOTE**: Make sure your webhook URI private to you. Anyone with access to your webhook URI can send you webhook messages.
+    :::note Note
+    Make sure your webhook URI private to you. Anyone with access to your webhook URI can send you webhook messages.
+    :::
 
 6.  After saving it, you will start receive webhook messages of all USDT transactions above $1M. The response message is a json object containing all the details of the transaction.
 
-
-    | Keys                  | Description                                      |
-    | ---------------------- | ------------------------------------------------ |
-    | streamName             | The name of the stream                           |
-    | subjectTwitterUserName | Twitter username of the subject                  |
-    | subjectTwitterName     | Twitter name of the subject                      |
-    | subjectAddress         | Ethereum address of the subject                  |
-    | blockNumber            | Number of the block                              |
-    | blockHash              | Hash of the block                                |
-    | hash                   | Transaction hash                                 |
-    | from                   | Sender's address                                 |
-    | to                     | Receiver's address                               |
-    | gas                    | Gas used in the transaction                       |
-    | gasPrice               | Price of gas                                     |
-    | maxFeePerGas           | Maximum fee per gas                               |
-    | maxPriorityFeePerGas   | Maximum priority fee per gas                      |
-    | nonce                  | Transaction nonce                                |
-    | chainId                | Chain ID                                         |
-    | transactionIndex       | Index of the transaction in the block             |
-    | type                   | Type of transaction                              |
-    | value                  | Value sent in the transaction                    |
-    | v                      | V parameter of the transaction                   |
-    | r                      | R parameter of the transaction                   |
-    | s                      | S parameter of the transaction                   |
-    | input                  | Input data of the transaction                    |
-    | accessList             | List of access information                        |
-    | functionName           | Name of the function called in the transaction    |
-    | buyer                  | Address of the buyer                             |
-    | numberOfSharesToBuy    | Number of shares to buy                           |
-    | receiptStatus          | Status of the transaction receipt                 |
-    | address                | Address in the log                                |
-    | topic0                 | Topic 0 in the log                                |
-    | topic1                 | Topic 1 in the log                                |
-    | topic2                 | Topic 2 in the log                                |
-    | topic3                 | Topic 3 in the log                                |
-    | data                   | Data in the log                                   |
-    | eventName              | Name of the event logged                          |
-    | trader                 | Address of the trader                             |
-    | subject                | Address of the subject                            |
-    | isBuy                  | Indicates if it's a buy transaction              |
-    | shareAmount            | Amount of shares involved in the transaction      |
-    | ethAmount              | Amount of Ethereum involved in the transaction    |
-    | protocolEthAmount      | Amount of Ethereum for the protocol               |
-    | subjectEthAmount       | Amount of Ethereum for the subject                |
-    | supply                 | Supply information                                |
+    | Keys                   | Description                                    |
+    | ---------------------- | ---------------------------------------------- |
+    | streamName             | The name of the stream                         |
+    | subjectTwitterUserName | Twitter username of the subject                |
+    | subjectTwitterName     | Twitter name of the subject                    |
+    | subjectAddress         | Ethereum address of the subject                |
+    | blockNumber            | Number of the block                            |
+    | blockHash              | Hash of the block                              |
+    | hash                   | Transaction hash                               |
+    | from                   | Sender's address                               |
+    | to                     | Receiver's address                             |
+    | gas                    | Gas used in the transaction                    |
+    | gasPrice               | Price of gas                                   |
+    | maxFeePerGas           | Maximum fee per gas                            |
+    | maxPriorityFeePerGas   | Maximum priority fee per gas                   |
+    | nonce                  | Transaction nonce                              |
+    | chainId                | Chain ID                                       |
+    | transactionIndex       | Index of the transaction in the block          |
+    | type                   | Type of transaction                            |
+    | value                  | Value sent in the transaction                  |
+    | v                      | V parameter of the transaction                 |
+    | r                      | R parameter of the transaction                 |
+    | s                      | S parameter of the transaction                 |
+    | input                  | Input data of the transaction                  |
+    | accessList             | List of access information                     |
+    | functionName           | Name of the function called in the transaction |
+    | buyer                  | Address of the buyer                           |
+    | numberOfSharesToBuy    | Number of shares to buy                        |
+    | receiptStatus          | Status of the transaction receipt              |
+    | address                | Address in the log                             |
+    | topic0                 | Topic 0 in the log                             |
+    | topic1                 | Topic 1 in the log                             |
+    | topic2                 | Topic 2 in the log                             |
+    | topic3                 | Topic 3 in the log                             |
+    | data                   | Data in the log                                |
+    | eventName              | Name of the event logged                       |
+    | trader                 | Address of the trader                          |
+    | subject                | Address of the subject                         |
+    | isBuy                  | Indicates if it's a buy transaction            |
+    | shareAmount            | Amount of shares involved in the transaction   |
+    | ethAmount              | Amount of Ethereum involved in the transaction |
+    | protocolEthAmount      | Amount of Ethereum for the protocol            |
+    | subjectEthAmount       | Amount of Ethereum for the subject             |
+    | supply                 | Supply information                             |

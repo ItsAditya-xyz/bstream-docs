@@ -1,6 +1,6 @@
 # Using Bstream Webhooks
 
-Bstream webhooks allow you set up integrations that subscribe to a certain blockchain event within your code.
+Bstream webhooks allow you to set up integrations that subscribe to a certain blockchain event within your code.
 When that event occurs, Bstream makes an HTTP request to the URI provided by you.
 
 ## What is a webhook?

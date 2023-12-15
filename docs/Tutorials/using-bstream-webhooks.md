@@ -1,6 +1,6 @@
 # Using Bstream Webhooks
 
-Bstream webhooks allow you set up integrations that subscribe to a certain blockchain event within your code.
+Bstream webhooks allow you to set up integrations that subscribe to a certain blockchain event within your code.
 When that event occurs, Bstream makes an HTTP request to the URI provided by you.
 
 ## What is a webhook?
@@ -48,7 +48,7 @@ if __name__ == '__main__':
 
     ![add stream](https://media.discordapp.net/attachments/1150445520154808413/1180874316213137419/image.png?ex=657f01e8&is=656c8ce8&hm=f567e8808931a2a272af2f9e5055d1f355ae4c4eb67a87664f2054327596437e&=&format=webp&quality=lossless)
 
-2.  Now select the type of event your want to stream within your code. For instance we will choose 'Transfers' to stream all USDT transactions above $1M
+2.  Now select the type of event you want to stream within your code. For instance we will choose 'Transfers' to stream all USDT transactions above $1M
 
     ![streamType](https://pbs.twimg.com/media/GAPpseFbsAACWnA?format=jpg&name=medium)
 

@@ -36,13 +36,14 @@ If no pair is specified, all pairs in the network will be included
 
     ![params](https://docs.bstream.io/assets/images/swap-message-832d160866664773ff3a800a941bd2f9.png)
 
-| Message name | Description                                  |
-| ------------ | -------------------------------------------- |
-| Stream Name  | The name of the stream                       |
-| Wallet       | wallet address of the trader                 |
-| Token Out    | Returns the sold token                       |
-| Token In     | Returns the bought token                     |
-| Protocol     | Returns the swap protocol                    |
-| Swap Price   | Returns the price of bought token            |
-| Date & Time  | Returns the date and time of the transaction |
-| Txn link     | Returns the link of the transaction          |
+| Message Parameter | Description                                  |
+| ----------------- | -------------------------------------------- |
+| Message name      | Description                                  |
+| Stream Name       | The name of the stream                       |
+| Wallet            | wallet address of the trader                 |
+| Token Out         | Returns the sold token                       |
+| Token In          | Returns the bought token                     |
+| Protocol          | Returns the swap protocol                    |
+| Swap Price        | Returns the price of bought token            |
+| Date & Time       | Returns the date and time of the transaction |
+| Txn link          | Returns the link of the transaction          |

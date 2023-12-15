@@ -21,8 +21,9 @@ Using **Native Transactions** one receive notifications about transfers of nativ
 
     ![params](https://docs.bstream.io/assets/images/native-transactions-message-f1b6ba4547a85d28417fe0e273e60e63.png)
 
-| Stream Name           | Returns the name of the stream               |
+| Message Parameter     | Description                                  |
 | --------------------- | -------------------------------------------- |
+| Stream Name           | Returns the name of the stream               |
 | Token                 | Returns the token trasnacted                 |
 | From                  | Returns the sender's wallet                  |
 | To                    | Returns the receiver's wallet                |

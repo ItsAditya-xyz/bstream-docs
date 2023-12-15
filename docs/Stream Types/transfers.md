@@ -17,8 +17,8 @@ The transfers stream has below filters:
 | Chain              | Chain on which the token is deployed. eg. Ethereum, Arbitrum etc. |
 | Wallet Address     | List of wallets you want to track (optional).                     |
 | Transfer direction | In, out or both.                                                  |
-| Token address    | Token address you want to track.                                  |
-| Operators          | Less then, more than or equal to a specific amount                  |
+| Token address      | Token address you want to track.                                  |
+| Operators          | Less then, more than or equal to a specific amount                |
 
 :::note Note
 If no wallet is provided, all transfers of the token will be streamed
@@ -28,8 +28,9 @@ If no wallet is provided, all transfers of the token will be streamed
 
     ![params](https://docs.bstream.io/assets/images/native-transactions-message-f1b6ba4547a85d28417fe0e273e60e63.png)
 
-| Stream Name           | Returns the name of the stream               |
+| Message Parameter     | Description                                  |
 | --------------------- | -------------------------------------------- |
+| Stream Name           | Returns the name of the stream               |
 | Token                 | Returns the token transacted                 |
 | From                  | Returns the sender's wallet                  |
 | To                    | Returns the receiver's wallet                |

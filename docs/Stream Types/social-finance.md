@@ -30,8 +30,10 @@ If no pair is specified, all pairs in the network will be included
 
     ![params](https://cdn.discordapp.com/attachments/841605440038240276/1181922176190918686/image.png?ex=6582d1cd&is=65705ccd&hm=8ad7d4d300466090e0ffceb8eccd3e5915004d769829fad47794265d53178415&)
 
-| Message Parameters    | Description                                  |
+
+| Message Parameter     | Description                                  |
 | --------------------- | -------------------------------------------- |
+| Message Parameters    | Description                                  |
 | Stream Name           | Returns Stream Name                          |
 | Twitter Handle        | Twitter Handle of trader                     |
 | Account Address       | Account address of trader                    |
